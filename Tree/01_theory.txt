@@ -1,0 +1,90 @@
+1.Number of Binary trees given n Nodes:=>
+Catalan Number:
+        T(n)=[2nCn/(n+1)]
+Another formula-> T(n)=summation(T(i-1)*T(n-i)) :i=1->n
+_______________________________________________________________________________________________________________________________
+2.Maximum Height with n Nodes = n-1
+_______________________________________________________________________________________________________________________________
+3.Maximum binary Trees possible which max Height(n-1)  when n Nodes:=> pow(2,n-1)
+_______________________________________________________________________________________________________________________________
+4.Labelled Nodes: A,B,C...
+NUmber of Binary Trees with Labelled Nodes:
+        T(n)=[2nCn/(n+1)]*(n!)
+                Shapes     filling
+
+_______________________________________________________________________________________________________________________________
+5.Height vs Nodes:
+A.Given height find minimum and maximum number of Nodes to build it 
+    MinimumNodes            MaximumNodes 
+      h+1                   pow(2,h+1)-1                
+
+B.Given Nodes find min height and Maxheight:
+    MinimumHeight           MaximumHeight
+      h=log2(n+1)-1             h=n-1
+
+Observation:
+    Height of Binary Tree:
+            log2(n+1)-1<=h<=n-1
+            logn  to  n
+    Number of Nodes in Binary Tree 
+            h+1<=n<=pow(2,h+1)-1
+_______________________________________________________________________________________________________________________________
+6.Internal VS External Nodes:
+    Number of Nodes with 
+    degree(0)=degree(2)+1;
+
+_______________________________________________________________________________________________________________________________
+7.Strict/Proper/Complete Binary Tree:
+Strict Binary should have Nodes with exactly 2 child or 0 child(for leaf)
+A.Max and Min number of Nodes in strict Binary tree:
+    Number of Nodes in Strict Binary Tree 
+        2h+1<=n<=pow(2,h+1)-1
+    Height of Strict Binary Tree:
+        log2(n+1)-1<=h<=(n-1)/2
+            logn  to  n
+
+B.Internal VS External Nodes:
+    No of External Nodes=No of Internal +1
+    e=i+1;//only in strict binary tree
+_______________________________________________________________________________________________________________________________
+8.n-ary Trees
+A.n-ary Tree(Every Node has capacity of n child{can have 0,1,2,3...n childs})
+B.Strict n-ary Tree:
+degree is (0 or n)
+    Number of Nodes in Strict n-ary Tree 
+        mh+1<=n<=(pow(m,h+1)-1)/m-1
+    Height of Strict n-ary Tree:
+        logm(n(m-1)+1)-1<=h<=(n-1)/m
+            logn  to  n
+C.Internal VS External Nodes:
+    No of External Nodes=No of Internal +1
+    e=(m-1)i+1;//only in strict n-ary tree
+_______________________________________________________________________________________________________________________________
+9.Representation of Trees:
+    A.using Arrays
+    store in level order :)
+    relationship:
+        element-i
+        Lschild-2i
+        Rchild-2i+1
+        parent-floor[i/2]
+    
+    B.Linked Representation(Used more)
+
+_______________________________________________________________________________________________________________________________
+10.Full and Complete
+A.Full BT-> A Tree of height h having maximum Number of Nodes
+ie. h ,n=pow(2,h+1)-1
+
+B.Complete BT->If a Binary Tree is represented in Array then there should not any blank spaces in btw elements
+ie.A Complete BT of height h will be a full BT uptill h-1 height nad in last level the elements will be filled 
+from Left to Right without skipping any elements  
+
+A Full BT is always a Complete BT but Complete BT need not be a Full BT
+
+_______________________________________________________________________________________________________________________________
+11.Strict   VS   Complete
+  complete      almostcomplete  -> Sometimes also refered as this
+
+
+_______________________________________________________________________________________________________________________________

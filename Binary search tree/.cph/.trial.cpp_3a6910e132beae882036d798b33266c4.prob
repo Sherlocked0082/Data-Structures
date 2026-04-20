@@ -1,0 +1,1 @@
+{"name":"Local: trial","url":"d:\\Coding\\DSA\\Binary search tree\\trial.cpp","tests":[{"id":1642078363367,"input":"2\n3 5\n4 9 12\n5 6\n5 9 12 14 15","output":"12\n13"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\DSA\\Binary search tree\\trial.cpp","group":"local","local":true}

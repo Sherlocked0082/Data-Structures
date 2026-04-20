@@ -1,0 +1,11 @@
+AND  &  -> and of Binary representation of 2 numbers
+OR   |  ->
+XOR  ^  -> op is 1 when 2 input bits are different
+
+Left shift  <<  (x<<y) x-> number y-> Number of times its binary representation is to be shifted
+ x leftshift y   ->  x*pow(2,y)
+
+Right Shift >> 
+x rightshift y  -> floor(x/pow(2,y))
+
+NOT  ~ -> inverts all the bits 

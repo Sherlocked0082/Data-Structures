@@ -1,0 +1,3 @@
+USES of Topological sort 
+1. Whenvever there are prerequisites to do a certain course 
+2. DP on graph problems

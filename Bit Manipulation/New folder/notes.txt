@@ -1,0 +1,36 @@
+Bitwise Operators
+
+1. Bitwise AND(&)
+    All 1 --> 1
+    Any 0 --> 0
+
+2. Bitwise OR(|)
+    Any 1 --> 1
+    All 0 --> 0 
+
+3. Bitwise XOR(^)
+    Even 1 --> 0
+    Odd 1 --> 1
+    NOTE: a^a --> 0(IMP)
+
+4. Bitwise Negation(~)
+    0 --> 1
+    1 --> 0
+
+5. Right Shift(>>)
+    i.e a = 5 (i.e 101) ==> a>>1(remove 1 bit from the right) ==> a = 2(i.e 10)
+    hence a>>n means remove 'n' bits from the right of the number
+    NOTE: a>>n gives result same as (a / 2^n)[floor division]
+
+6. Left Shift(<<)
+    i.e int a = 5
+        int[32 bit] => a = (00000000000000000000000000000101)
+               a<<2 => a = (000000000000000000000000000101)
+                    => a = (00000000000000000000000000010100) => a = 20
+    hence a<<n means add 'n' zero bits to the right OR shift by 'n' bits to the left
+    NOTE: a<<n gives result same as (a*2^n)[Multiplication]
+    if we left shift 50 time but there are only 32bits hence it will overflow this can even be understood as 2^50 will overflow because int can store only upto 2^31.
+
+
+
+
