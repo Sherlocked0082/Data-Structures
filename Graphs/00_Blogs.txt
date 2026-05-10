@@ -1,0 +1,7 @@
+Good Articles 
+
+BFS and its variants
+https://leetcode.com/discuss/post/1833581/bfs-and-its-variations-by-c0d3m-o47u/
+
+Standard DFS BFS problems
+https://leetcode.com/discuss/post/3903992/graph-its-implementation-and-some-popula-u7rz/
